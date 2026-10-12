@@ -1,6 +1,6 @@
 // EDIT: isi nomor WhatsApp admin/penerima RSVP dengan kode negara tanpa tanda +.
 // Contoh Indonesia: 6281234567890
-const WHATSAPP_NUMBER = "6281234567890";
+const WHATSAPP_NUMBER = "6285819625816";
 
 const music = document.getElementById("weddingMusic");
 const openButton = document.getElementById("openInvitation");
@@ -38,7 +38,7 @@ const guest = params.get("to");
 if (guest) document.getElementById("guestName").textContent = guest.replace(/[<>]/g, "").slice(0, 80);
 
 // Hitung mundur ke tanggal acara. Ubah tanggal ini sesuai jadwal sebenarnya.
-const weddingDate = new Date("2026-12-20T08:00:00+07:00").getTime();
+const weddingDate = new Date("2027-03-20T08:00:00+07:00").getTime();
 function updateCountdown() {
   const remaining = weddingDate - Date.now();
   if (remaining <= 0) {
@@ -103,4 +103,4 @@ lightbox.addEventListener("click", (event) => { if (event.target === lightbox) c
 document.addEventListener("keydown", (event) => { if (event.key === "Escape") closeLightbox(); });
 
 // EDIT: ganti alamat di bawah ini dengan lokasi acara yang tepat.
-document.getElementById("mapLink").href = "https://maps.google.com/?q=Kediaman+Mempelai+Wanita";
+document.getElementById("mapLink").href = "https://maps.app.goo.gl/gSheWHwSPHC9vMCVA";
