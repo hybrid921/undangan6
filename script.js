@@ -67,7 +67,7 @@ document.getElementById("rsvpForm").addEventListener("submit", (event) => {
   const guests = document.getElementById("guests").value;
   const message = document.getElementById("message").value.trim();
   const text = [
-    "RSVP UNDANGAN PERNIKAHAN ALYA & ARKAN",
+    "RSVP UNDANGAN PERNIKAHAN ENENG SADIYAH & AEP",
     `Nama: ${name}`,
     `Konfirmasi: ${attendance}`,
     `Jumlah tamu: ${guests}`,
